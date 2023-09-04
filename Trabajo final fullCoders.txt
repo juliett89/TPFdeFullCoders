@@ -1,0 +1,310 @@
+Algoritmo PeluqueriaMnosDeTijeras
+	
+	definir peluquero  Como Caracter
+	definir corte, color, alizado, barba, consumoTotal Como Real
+	Definir turno,  op, diaElegido Como Entero
+	
+	corte= 1000
+	color = 2000
+	alizado = 3500
+	barba = 1500
+	
+	
+	
+	turno=0
+	
+	Escribir " BIENVENIDOS A PELUQUERIA MANOS DE TIJERAS "
+	
+	Escribir "____Para sacar turno, ingrese la opcion que desea____"
+	Escribir "1 = Martes "
+	Escribir "2 = miercoles "
+	Escribir "3 = jueves "
+	Escribir "4 = viernes "
+	leer op
+	
+	
+	Repetir
+		Si  op>=1 y op <=4 Entonces
+			
+			Escribir " opcion correcta, ingrese nuevamente una opcion "
+		Sino
+			Escribir  "la opcion ingresada es incorrecta."
+			Escribir "............................................................"
+			Escribir "Ingrese nuevamente una opcion "
+			Escribir " "
+			Escribir " BIENVENIDOS A PELUQUERIA MANOS DE TIJERAS "
+			
+			Escribir "____Para sacar turno, ingrese la opsion que desea____"
+			Escribir "1 = Martes "
+			Escribir "2 = miercoles "
+			Escribir "3 = jueves "
+			Escribir "4 = viernes "
+			leer op
+			
+		Fin Si
+		
+	hasta Que op >=1 y op <=4
+	
+	Segun op Hacer
+		1:
+			
+			Escribir "Ingrese el horario del turno turno"
+			Escribir "     "
+			Escribir " TURNO MAÑANA"
+			Escribir " 1--  9:00 am "
+			Escribir " 2-- 10:00 am "
+			Escribir " 3-- 11:00 am "
+			Escribir " 4-- 12:00 am "
+			Escribir "----------------"
+			Escribir " TURNO TARDE"
+			Escribir " 5-- 17:00 pm "
+			Escribir " 6-- 18:00 pm "
+			Escribir " 7-- 19:00 pm "
+			Escribir " 8-- 20:00 pm "
+			leer turno
+			Repetir
+				Si  turno >=1 y turno <=8 Entonces
+					
+					
+					Mostrar "Turno reservado exitosamente."
+				Sino
+					escribir "El turno seleccionado no esta disponible. Por favor, elija otro."
+					Escribir "............................................................"
+					Escribir "Ingrese el horario del turno turno" 
+					Escribir " TURNO MAÑANA"
+					Escribir " 1--  9:00 am "
+					Escribir " 2-- 10:00 am "
+					Escribir " 3-- 11:00 am "
+					Escribir " 4-- 12:00 am "
+					Escribir "----------------"
+					Escribir " TURNO TARDE"
+					Escribir " 5-- 17:00 pm "
+					Escribir " 6-- 18:00 pm "
+					Escribir " 7-- 19:00 pm "
+					Escribir " 8-- 20:00 pm "
+					leer turno
+					
+				Fin Si
+				
+			hasta Que turno >=1 y turno <=8
+			
+			
+			
+			
+		2:
+			Escribir "Ingrese el horario del turno turno"
+			Escribir "     "
+			Escribir " TURNO MAÑANA"
+			Escribir " 1--  9:00 am "
+			Escribir " 2-- 10:00 am "
+			Escribir " 3-- 11:00 am "
+			Escribir " 4-- 12:00 am "
+			Escribir "----------------"
+			Escribir " TURNO TARDE"
+			Escribir " 5-- 17:00 pm "
+			Escribir " 6-- 18:00 pm "
+			Escribir " 7-- 19:00 pm "
+			Escribir " 8-- 20:00 pm "
+			leer turno
+			
+			Repetir
+				Si  turno >=1 y turno <=8 Entonces
+					
+					
+					Escribir  "[ Turno reservado exitosamente ]"
+				Sino
+					escribir "El turno seleccionado no esta disponible. Por favor, elija otro."
+					Escribir "............................................................"
+					Escribir "Ingrese el horario del turno turno" 
+					Escribir " TURNO MAÑANA"
+					Escribir " 1--  9:00 am "
+					Escribir " 2-- 10:00 am "
+					Escribir " 3-- 11:00 am "
+					Escribir " 4-- 12:00 am "
+					Escribir "----------------"
+					Escribir " TURNO TARDE"
+					Escribir " 5-- 17:00 pm "
+					Escribir " 6-- 18:00 pm "
+					Escribir " 7-- 19:00 pm "
+					Escribir " 8-- 20:00 pm "
+					leer turno
+					
+				Fin Si
+				
+			hasta Que turno >=1 y turno <=8 
+			
+			
+		3:
+			Escribir "Ingrese el horario del turno turno"
+			Escribir "     "
+			Escribir " TURNO MAÑANA"
+			Escribir " 1--  9:00 am "
+			Escribir " 2-- 10:00 am "
+			Escribir " 3-- 11:00 am "
+			Escribir " 4-- 12:00 am "
+			Escribir "----------------"
+			Escribir " TURNO TARDE"
+			Escribir " 5-- 17:00 pm "
+			Escribir " 6-- 18:00 pm "
+			Escribir " 7-- 19:00 pm "
+			Escribir " 8-- 20:00 pm "
+			leer turno
+			Repetir
+				Si  turno >=1 y turno <=8 Entonces
+					
+					
+					Escribir  "[ Turno reservado exitosamente ]"
+				Sino
+					escribir "El turno seleccionado no esta disponible. Por favor, elija otro."
+					Escribir "............................................................"
+					Escribir "Ingrese el horario del turno turno" 
+					Escribir " TURNO MAÑANA"
+					Escribir " 1--  9:00 am "
+					Escribir " 2-- 10:00 am "
+					Escribir " 3-- 11:00 am "
+					Escribir " 4-- 12:00 am "
+					Escribir "----------------"
+					Escribir " TURNO TARDE"
+					Escribir " 5-- 17:00 pm "
+					Escribir " 6-- 18:00 pm "
+					Escribir " 7-- 19:00 pm "
+					Escribir " 8-- 20:00 pm "
+					leer turno
+					
+				Fin Si
+				
+			hasta Que turno >=1 y turno <=8
+			
+			
+		4:	
+			Escribir "Ingrese el horario del turno turno"
+			Escribir "     "
+			Escribir " TURNO MAÑANA"
+			Escribir " 1--  9:00 am "
+			Escribir " 2-- 10:00 am "
+			Escribir " 3-- 11:00 am "
+			Escribir " 4-- 12:00 am "
+			Escribir "----------------"
+			Escribir " TURNO TARDE"
+			Escribir " 5-- 17:00 pm "
+			Escribir " 6-- 18:00 pm "
+			Escribir " 7-- 19:00 pm "
+			Escribir " 8-- 20:00 pm "
+			leer turno
+			Repetir
+				Si  turno >=1 y turno <=8 Entonces
+					
+					
+					Escribir  "[ Turno reservado exitosamente ]"
+				Sino
+					escribir "El turno seleccionado no esta disponible. Por favor, elija otro."
+					Escribir "............................................................"
+					Escribir "Ingrese el horario del turno turno" 
+					Escribir " TURNO MAÑANA"
+					Escribir " 1--  9:00 am "
+					Escribir " 2-- 10:00 am "
+					Escribir " 3-- 11:00 am "
+					Escribir " 4-- 12:00 am "
+					Escribir "----------------"
+					Escribir " TURNO TARDE"
+					Escribir " 5-- 17:00 pm "
+					Escribir " 6-- 18:00 pm "
+					Escribir " 7-- 19:00 pm "
+					Escribir " 8-- 20:00 pm "
+					leer turno
+					
+				Fin Si
+				
+			hasta Que turno >=1 y turno <=8
+			
+			
+		De Otro Modo:
+			
+			Escribir "Esa opcion no esta disponible "
+			Escribir "     "
+			Escribir "Ingrese una nueva opcion "
+			Leer op
+			
+	Fin Segun
+	
+	Escribir  "[ Turno reservado exitosamente ]"
+	Escribir "............................................."
+	Escribir " Para continuar elija el peluquero que desa "
+	Escribir "       " " ¿Que peluquero desea? "
+	Escribir "-----Pablo Especialista en Barberia  "
+	Escribir "-----Julia Especialista en Coloracion  "
+	Escribir "-----Mario Especialista en Alisados  "
+	Escribir "-----Morena Especialista en Cortes  "
+	leer peluquero 
+	
+	
+	Repetir
+		
+		
+		Si  peluquero = "julia" o peluquero= "pablo" o peluquero= "morena" o peluquero ="mario"  Entonces
+			
+			Escribir " _Gracias por Elegirme_ "
+			
+			
+			
+		Sino
+			Escribir "Lo sentimos ese peluquero no esta disponible "
+			Escribir " "
+			Escribir " Ingrese nuevamente un peluquero "
+			
+			
+			leer peluquero
+			
+		Fin Si
+	Hasta Que  peluquero = "julia" o peluquero= "pablo" o peluquero= "morena" o peluquero ="mario"
+	
+	
+	Segun peluquero Hacer
+		"pablo":
+			Escribir " _Gracias por Elegirme_ "
+			
+			consumoTotal = barba 
+			Escribir "............................................."
+			Escribir " Su total a pagar es: $", consumoTotal
+			Escribir "............................................."
+			
+			
+		"julia":
+			
+			Escribir " _Gracias por Elegirme_ "
+			consumoTotal = color 
+			Escribir "............................................."
+			Escribir " Su total a pagar es: $", consumoTotal
+			Escribir "............................................."
+			
+		"mario":
+			Escribir " _Gracias por Elegirme_ "
+			Escribir "............................................."
+			consumoTotal = alizado 
+			Escribir " Su total a pagar es: $", consumoTotal
+			Escribir "............................................."
+		"morena":
+			
+			Escribir " _Gracias por Elegirme_ "
+			Escribir "............................................."
+			consumoTotal = corte
+			Escribir " Su total a pagar es: $", consumoTotal
+			Escribir "............................................."
+		De Otro Modo:
+			Escribir "Lo sentimos ese peluquero no esta disponible "
+			Escribir " "
+			Escribir " Ingrese nuevamente un peluquero "
+			
+			
+	Fin Segun
+	
+	
+	
+	
+	
+	Escribir " Lo Esperamos Pronto "
+	
+	Escribir  "----------------------------------------------------"
+	Escribir "*** MUCHAS GRACIAS POR ELEGIR MANOS DE TIJERAS ***  |"
+    Escribir  "----------------------------------------------------"
+FinAlgoritmo
